@@ -1,5 +1,6 @@
 import { SolverOptions } from '.'
 
+// @ts-ignore lol
 export default async function solve({ url, sitekey, userAgent, proxy, apiKey }: SolverOptions): Promise<string> {
     try {
         const ac = require("@antiadmin/anticaptchaofficial")
